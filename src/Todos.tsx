@@ -16,7 +16,7 @@ type todosProp = {
 export default function Todos({ todos, updateTodo }: todosProp) {
   const dispatch = useDispatch()
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 w-1/2">
       {todos.map((todo, index) => (
         <div
           key={index}

@@ -32,7 +32,7 @@ function App() {
   }
   return (
     <>
-      <main className="flex flex-col gap-4">
+      <main className="flex flex-col gap-10 items-center ">
         <h1>Todo App using redux</h1>
         <form className="space-x-3">
           <input
